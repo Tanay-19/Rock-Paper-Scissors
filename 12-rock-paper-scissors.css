@@ -1,0 +1,66 @@
+body{
+  background-color: rgb(25,25,25);
+  color: white;
+  font-family: Arial;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.move-icon{
+  height: 50px;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 3px solid white;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  /* animation: colors 2s infinite; */
+  transition: box-shadow 0.2s;
+}
+
+@keyframes colors {
+  0%{
+    background-color: Red;
+  }
+  25%{
+    background-color: blue;
+  }
+  50%{
+    background-color: green;
+  }
+  75%{
+    background-color: yellow;
+  }
+  100%{
+    background-color: purple;
+  }
+}
+.move-button:hover{
+  box-shadow: 5px 5px 10px rgba(236, 229, 229, 0.2);
+}
+
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.cs-score{
+  margin-top: 60px;
+}
+
+.reset-button,
+.auto-button{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
